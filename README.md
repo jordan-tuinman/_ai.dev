@@ -78,4 +78,13 @@ Provides a simple, layperson's explanation of a specified feature, code snippet,
 /explain "How does the user authentication system work?"
 ```
 
+#### `/diagnose`
+
+Navigates to a given URL, performs a series of diagnostics (console, network, rendering), and generates a concise report in a timestamped markdown file in the `diagnose/` directory.
+
+**Example:**
+```
+/diagnose url: "https://my-buggy-site.com/login"
+```
+
 By following this structured approach, you can guide the AI agent through a repeatable and high-quality development process, ensuring the final output aligns with your requirements.
